@@ -707,17 +707,6 @@ Calibration reduction: 3x (12→4 per year)
 - Virtual sensor: Predict sensor 14 from sensors 1-13, 15-21
 - Drift: Added synthetic calibration drift patterns
 
-**Citation:**
-```bibtex
-@inproceedings{saxena2008damage,
-  title={Damage propagation modeling for aircraft engine run-to-failure simulation},
-  author={Saxena, Abhinav and Goebel, Kai and Simon, Don and Eklund, Neil},
-  booktitle={2008 international conference on prognostics and health management},
-  year={2008}
-}
-```
-
----
 
 ### 2. UCI Gas Sensor Array Drift Dataset
 
@@ -734,17 +723,9 @@ Calibration reduction: 3x (12→4 per year)
 - Virtual sensor: Predict sensor 9 from sensors 1-8
 - Drift: REAL drift from deployment (Month 1-2 vs Month 36)
 
-**Citation:**
-```bibtex
-@article{vergara2012chemical,
-  title={Chemical gas sensor drift compensation using classifier ensembles},
-  author={Vergara, Alexander and Vembu, Shankar and Ayhan, Tuba and Ryan, Margaret A and Homer, Margie L and Huerta, Ram{\'o}n},
-  journal={Sensors and Actuators B: Chemical},
-  year={2012}
-}
-```
 
-**⚠️ Important Result:** Our method **failed** on this dataset (-13.1pp), demonstrating limitations with complex multi-sensor drift.
+
+**Important Result:** Our method **failed** on this dataset (-13.1pp), demonstrating limitations with complex multi-sensor drift.
 
 ---
 
@@ -944,8 +925,6 @@ This work would not have been possible without:
 - **PyTorch Team** - Deep learning framework
 - **Open Source Community** - Tools and libraries
 
-Special thanks to reviewers and collaborators who provided feedback on early versions of this work.
-
 ---
 
 ## 📈 Project Status & Roadmap
@@ -985,7 +964,5 @@ Special thanks to reviewers and collaborators who provided feedback on early ver
 <div align="center">
 
 **If you find this work useful, please ⭐ star the repository!**
-
-Made with ❤️ by Diya Nuxoll at UW-Madison
 
 </div>
