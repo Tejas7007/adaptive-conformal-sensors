@@ -1,0 +1,5 @@
+method,coverage,description
+Standard Conformal,0.5079235434532166,"Fixed quantile, no adaptation"
+Online Learning,0.6291074156761169,"Continuous model updates, fixed quantile"
+Sliding Window,0.8865066170692444,Quantile recalibration only
+Adaptive Conformal (Ours),0.8941971659660339,Model + quantile adaptation
